@@ -3,322 +3,384 @@
     {
       "IP": "192.168.1.0",
       "Mask": "255.255.255.0",
-      "Room": "1"
+      "Room": "1",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Adelaide.jpg"
     },
     {
       "IP": "192.160.2.0",
       "Mask": "255.255.255.0",
-      "Room": "2"
+      "Room": "2",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Adelaide.jpg"
     },
     {
       "IP": "192.168.3.0",
       "Mask": "255.255.255.0",
-      "Room": "3"
+      "Room": "3",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Adelaide.jpg"
     },
     {
       "IP": "192.168.4.0",
       "Mask": "255.255.255.0",
-      "Room": "4"
+      "Room": "4",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Adelaide.jpg"
     }
   ],
   "Brisbane": [
     {
       "IP": "148.182.92.0",
       "Mask": "255.255.255.0",
-      "Room": "1"
+      "Room": "1",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     },
     {
       "IP": "148.182.82.0",
       "Mask": "255.255.255.0",
-      "Room": "2"
+      "Room": "2",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     },
     {
       "IP": "148.182.83.0",
       "Mask": "255.255.255.0",
-      "Room": "3"
+      "Room": "3",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     },
     {
       "IP": "148.182.84.0",
       "Mask": "255.255.255.0",
-      "Room": "4"
+      "Room": "4",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     },
     {
       "IP": "148.182.85.0",
       "Mask": "255.255.255.0",
-      "Room": "5"
+      "Room": "5",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     },
     {
       "IP": "148.182.86.0",
       "Mask": "255.255.255.0",
-      "Room": "6"
+      "Room": "6",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     },
     {
       "IP": "148.182.87.0",
       "Mask": "255.255.255.0",
-      "Room": "7"
+      "Room": "7",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     },
     {
       "IP": "148.182.89.0",
       "Mask": "255.255.255.0",
-      "Room": "Lab"
+      "Room": "Lab",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg"
     }
   ],
   "Canberra": [
     {
       "IP": "192.168.101.0",
       "Mask": "255.255.255.0",
-      "Room": "1"
+      "Room": "1",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg"
     },
     {
       "IP": "192.168.102.0",
       "Mask": "255.255.255.0",
-      "Room": "2"
+      "Room": "2",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg"
     },
     {
       "IP": "192.168.103.0",
       "Mask": "255.255.255.0",
-      "Room": "3"
+      "Room": "3",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg"
     },
     {
       "IP": "192.168.104.0",
       "Mask": "255.255.255.0",
-      "Room": "4"
+      "Room": "4",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg"
     },
     {
       "IP": "192.168.105.0",
       "Mask": "255.255.255.0",
-      "Room": "5"
+      "Room": "5",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg"
     },
     {
       "IP": "192.168.106.0",
       "Mask": "255.255.255.0",
-      "Room": "6"
+      "Room": "6",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg"
     }
   ],
   "Melbourne": [
     {
       "IP": "10.1.0.0",
       "Mask": "255.255.0.0",
-      "Room": "1"
+      "Room": "1",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.2.0.0",
       "Mask": "255.255.0.0",
-      "Room": "2"
+      "Room": "2",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.3.0.0",
       "Mask": "255.255.0.0",
-      "Room": "3"
+      "Room": "3",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.4.0.0",
       "Mask": "255.255.0.0",
-      "Room": "4"
+      "Room": "4",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.5.0.0",
       "Mask": "255.255.0.0",
-      "Room": "5"
+      "Room": "5",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.6.0.0",
       "Mask": "255.255.0.0",
-      "Room": "6"
+      "Room": "6",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.7.0.0",
       "Mask": "255.255.0.0",
-      "Room": "7"
+      "Room": "7",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.8.0.0",
       "Mask": "255.255.0.0",
-      "Room": "8"
+      "Room": "8",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.9.0.0",
       "Mask": "255.255.0.0",
-      "Room": "9"
+      "Room": "9",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.10.0.0",
       "Mask": "255.255.0.0",
-      "Room": "10"
+      "Room": "10",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.11.0.0",
       "Mask": "255.255.0.0",
-      "Room": "11"
+      "Room": "11",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.12.0.0",
       "Mask": "255.255.0.0",
-      "Room": "12"
+      "Room": "12",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.13.0.0",
       "Mask": "255.255.0.0",
-      "Room": "13"
+      "Room": "13",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.14.0.0",
       "Mask": "255.255.0.0",
-      "Room": "14"
+      "Room": "14",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.201.0.0",
       "Mask": "255.255.0.0",
-      "Room": "1"
+      "Room": "1",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.202.0.0",
       "Mask": "255.255.0.0",
-      "Room": "2"
+      "Room": "2",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.203.0.0",
       "Mask": "255.255.0.0",
-      "Room": "3"
+      "Room": "3",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.204.0.0",
       "Mask": "255.255.0.0",
-      "Room": "4"
+      "Room": "4",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.205.0.0",
       "Mask": "255.255.0.0",
-      "Room": "5"
+      "Room": "5",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.206.0.0",
       "Mask": "255.255.0.0",
-      "Room": "6"
+      "Room": "6",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.207.0.0",
       "Mask": "255.255.0.0",
-      "Room": "7"
+      "Room": "7",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.208.0.0",
       "Mask": "255.255.0.0",
-      "Room": "8"
+      "Room": "8",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.209.0.0",
       "Mask": "255.255.0.0",
-      "Room": "9"
+      "Room": "9",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.210.0.0",
       "Mask": "255.255.0.0",
-      "Room": "10"
+      "Room": "10",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.211.0.0",
       "Mask": "255.255.0.0",
-      "Room": "11"
+      "Room": "11",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     },
     {
       "IP": "10.212.0.0",
       "Mask": "255.255.0.0",
-      "Room": "12"
+      "Room": "12",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg"
     }
   ],
   "Perth": [
     {
       "IP": "192.168.1.0",
       "Mask": "255.255.255.0",
-      "Room": "1"
+      "Room": "1",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     },
     {
       "IP": "192.168.2.0",
       "Mask": "255.255.255.0",
-      "Room": "2"
+      "Room": "2",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     },
     {
       "IP": "192.168.3.0",
       "Mask": "255.255.255.0",
-      "Room": "3"
+      "Room": "3",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     },
     {
       "IP": "192.168.4.0",
       "Mask": "255.255.255.0",
-      "Room": "4"
+      "Room": "4",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     },
     {
       "IP": "192.168.5.0",
       "Mask": "255.255.255.0",
-      "Room": "5"
+      "Room": "5",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     },
     {
       "IP": "192.168.6.0",
       "Mask": "255.255.255.0",
-      "Room": "6"
+      "Room": "6",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     },
     {
       "IP": "192.168.7.0",
       "Mask": "255.255.255.0",
-      "Room": "7"
+      "Room": "7",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     },
     {
       "IP": "192.168.8.0",
       "Mask": "255.255.255.0",
-      "Room": "8"
+      "Room": "8",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg"
     }
   ],
   "Sydney": [
     {
       "IP": "10.122.41.0",
       "Mask": "255.255.255.0",
-      "Room": "1"
+      "Room": "1",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.42.0",
       "Mask": "255.255.255.0",
-      "Room": "2"
+      "Room": "2",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.43.0",
       "Mask": "255.255.255.0",
-      "Room": "3"
+      "Room": "3",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.44.0",
       "Mask": "255.255.255.0",
-      "Room": "4"
+      "Room": "4",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.45.0",
       "Mask": "255.255.255.0",
-      "Room": "5"
+      "Room": "5",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.46.0",
       "Mask": "255.255.255.0",
-      "Room": "6"
+      "Room": "6",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.47.0",
       "Mask": "255.255.255.0",
-      "Room": "7"
+      "Room": "7",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.48.0",
       "Mask": "255.255.255.0",
-      "Room": "8"
+      "Room": "8",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.49.0",
       "Mask": "255.255.255.0",
-      "Room": "9"
+      "Room": "9",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     },
     {
       "IP": "10.122.50.0",
       "Mask": "255.255.255.0",
-      "Room": "10"
+      "Room": "10",
+      "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg"
     }
   ]
 }
