@@ -1,7 +1,7 @@
 [
   {
     "Name": "Adelaide",
-    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Adelaide.jpg",
+    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Wallpaper/Adelaide.jpg",
     "Rooms": [
       {
         "IP": "192.168.1.0",
@@ -27,7 +27,7 @@
   },
   {
     "Name": "Brisbane",
-    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg",
+    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Wallpaper/Brisbane.jpg",
     "Rooms": [
       {
         "IP": "148.182.92.0",
@@ -73,7 +73,7 @@
   },
   {
     "Name": "Canberra",
-    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg",
+    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Wallpaper/Canberra.jpg",
     "Rooms": [
       {
         "IP": "192.168.101.0",
@@ -109,7 +109,7 @@
   },
   {
     "Name": "Melbourne",
-    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg",
+    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Wallpaper/Melbourne.jpg",
     "Rooms": [
       {
         "IP": "10.1.0.0",
@@ -245,7 +245,7 @@
   },
   {
     "Name": "Perth",
-    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg",
+    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Wallpaper/Perth.jpg",
     "Rooms": [
       {
         "IP": "192.168.1.0",
@@ -291,7 +291,7 @@
   },
   {
     "Name": "Sydney",
-    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg",
+    "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Wallpaper/Sydney.jpg",
     "Rooms": [
       {
         "IP": "10.122.41.0",
