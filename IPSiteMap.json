@@ -1,6 +1,6 @@
 [
   {
-    "SiteName": "Adelaide",
+    "Name": "Adelaide",
     "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Adelaide.jpg",
     "Rooms": [
       {
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "SiteName": "Brisbane",
+    "Name": "Brisbane",
     "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Brisbane.jpg",
     "Rooms": [
       {
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "SiteName": "Canberra",
+    "Name": "Canberra",
     "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Canberra.jpg",
     "Rooms": [
       {
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "SiteName": "Melbourne",
+    "Name": "Melbourne",
     "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Melbourne.jpg",
     "Rooms": [
       {
@@ -244,7 +244,7 @@
     ]
   },
   {
-    "SiteName": "Perth",
+    "Name": "Perth",
     "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Perth.jpg",
     "Rooms": [
       {
@@ -290,7 +290,7 @@
     ]
   },
   {
-    "SiteName": "Sydney",
+    "Name": "Sydney",
     "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Wallpaper/Sydney.jpg",
     "Rooms": [
       {
