@@ -15,7 +15,7 @@
       </header>
 
 
-      <div class="docs-code-live">
+      <div class="cs-tab-container">
         <ul class="tabs" id="vendor-tabs" data-tabs>
           <li class="tabs-title is-active"><a href="#microsoft-tab">Microsoft</a></li>
           <li class="tabs-title"><a href="#cisco-tab">Cisco</a></li>
@@ -43,7 +43,13 @@
         </div>
       </div>
 
-
+      <div id="app">
+        <ul>
+          <li v-for="item in items">
+            <p>{{item.Description}}</p>
+          </li>
+        </ul>
+      </div>
 
       <section>
         <h2>General Resources</h2>
@@ -76,6 +82,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/vue-resource.min.js"></script>
+    <script src="js/cs-app.js"></script>
     <script>
       $(document).foundation();
     </script>
