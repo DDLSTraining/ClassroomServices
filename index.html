@@ -1,17 +1,11 @@
 <!doctype html>
-<html>
+<html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DDLS Classroom Services</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/foundation.min.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -19,6 +13,38 @@
         <h1 class="header">DDLS Classroom Services</h1>
         <p class="header">Resources just for you!.</p>
       </header>
+
+
+      <div class="docs-code-live">
+        <ul class="tabs" id="vendor-tabs" data-tabs>
+          <li class="tabs-title is-active"><a href="#microsoft-tab">Microsoft</a></li>
+          <li class="tabs-title"><a href="#cisco-tab">Cisco</a></li>
+          <li class="tabs-title"><a href="#citrix-tab">Citrix</a></li>
+          <li class="tabs-title"><a href="#vmware-tab">VMWare</a></li>
+          <li class="tabs-title"><a href="#itil-tab">ITIL</a></li>
+        </ul>
+
+        <div class="tabs-content" data-tabs-content="vendor-tabs">
+          <div class="tabs-panel is-active" id="microsoft-tab">
+            <p>one</p>
+          </div>
+          <div class="tabs-panel" id="cisco-tab">
+            <p>two</p>
+          </div>
+          <div class="tabs-panel" id="citrix-tab">
+            <p>three</p>
+          </div>
+          <div class="tabs-panel" id="vmware-tab">
+            <p>four</p>
+          </div>
+          <div class="tabs-panel" id="itil-tab">
+            <p>five</p>
+          </div>
+        </div>
+      </div>
+
+
+
       <section>
         <h2>General Resources</h2>
         <ul>
@@ -46,7 +72,13 @@
         <p><small></small></p>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 
   </body>
 </html>
