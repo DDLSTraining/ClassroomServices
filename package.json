@@ -1,0 +1,22 @@
+{
+  "name": "csweb",
+  "version": "1.0.0",
+  "description": "Classroom Services Website",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://grantcarthew@github.com/DDLSTraining/ClassroomServices.git"
+  },
+  "author": "Grant Carthew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DDLSTraining/ClassroomServices/issues"
+  },
+  "homepage": "https://github.com/DDLSTraining/ClassroomServices#readme",
+  "dependencies": {
+    "foundation-sites": "^6.2.4"
+  }
+}
