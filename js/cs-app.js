@@ -12,13 +12,13 @@ var app = new Vue({
     }
   },
   created: function () {
-    this.getResources().then(() => {
+    this.getResources().then(function () {
       $(document).foundation()
-    }).catch(err => console.error(err))
+    }).catch(function (err) { console.error(err) })
   },
   methods: {
-    getResources () {
-      return this.$http.get('data/resources.json').then((res) => {
+    getResources: function () {
+      return this.$http.get('data/resources.json').then(function (res) {
         console.log(res)
         console.log(this)
         this.resources = res.body
