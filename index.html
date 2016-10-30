@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/foundation.min.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper" id="app">
       <header>
         <h1 class="header">DDLS Classroom Services</h1>
         <p class="header">Resources just for you!.</p>
@@ -26,54 +26,43 @@
 
         <div class="tabs-content" data-tabs-content="vendor-tabs">
           <div class="tabs-panel is-active" id="microsoft-tab">
-            <p>one</p>
+            <ul>
+              <li v-for="link in resources.microsoft.links">
+                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+              </li>
+            </ul>
           </div>
           <div class="tabs-panel" id="cisco-tab">
-            <p>two</p>
+            <ul>
+              <li v-for="link in resources.cisco.links">
+                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+              </li>
+            </ul>
           </div>
           <div class="tabs-panel" id="citrix-tab">
-            <p>three</p>
+            <ul>
+              <li v-for="link in resources.citrix.links">
+                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+              </li>
+            </ul>
           </div>
           <div class="tabs-panel" id="vmware-tab">
-            <p>four</p>
+            <ul>
+              <li v-for="link in resources.vmware.links">
+                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+              </li>
+            </ul>
           </div>
           <div class="tabs-panel" id="itil-tab">
-            <p>five</p>
+            <ul>
+              <li v-for="link in resources.itil.links">
+                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <div id="app">
-        <ul>
-          <li v-for="item in items">
-            <p>{{item.Description}}</p>
-          </li>
-        </ul>
-      </div>
-
-      <section>
-        <h2>General Resources</h2>
-        <ul>
-          <li><a href="https://www.ddls.com.au/">DDLS Homepage</a></li>
-          <li><a href="https://www.metricsthatmatter.com/dim319">Metrics That Matter</a></li>
-          <li><a href="https://skillpipe.courseware-marketplace.com/reader/en-GB/Account/Login">Skillpipe Reader</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Cisco</h2>
-        <ul>
-          <li><a href="http://www.cisco.com/">Cisco</a></li>
-          <li><a href="https://cll-auth.cisco.com/webauth/login">Cisco Learning Labs</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Citrix</h2>
-        <ul>
-          <li><a href="https://www.citrix.com/">Citrix</a></li>
-          <li><a href="http://training.citrix.com/">Citrix Education</a></li>
-          <li><a href="https://www.citrix.com/go/receiver.html">Citrix Receiver</a></li>
-        </ul>
-      </section>
       <footer>
         <p><small></small></p>
       </footer>

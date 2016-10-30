@@ -1,19 +1,28 @@
-
 var app = new Vue({
-
   el: '#app',
   data: {
-    items: []
+    resources: {
+      common: '',
+      whs: '',
+      microsoft: '',
+      cisco: '',
+      citrix: '',
+      vmware: '',
+      itil: ''
+    }
+  },
+  created: function () {
+    this.getResources().then(() => {
+      $(document).foundation()
+    }).catch(err => console.error(err))
   },
   methods: {
-    getData () {
-      return this.$http.get('data/bookmarks.json').then((res) => {
+    getResources () {
+      return this.$http.get('data/resources.json').then((res) => {
         console.log(res)
         console.log(this)
-        this.items = res.body
+        this.resources = res.body
       })
     }
   }
 })
-
-app.getData().then(() => { console.log(app.data) })
