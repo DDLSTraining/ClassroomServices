@@ -24,7 +24,7 @@
   "whs": {
     "name": "DDLS Workplace Health and Safety",
     "url": "https://www.ddls.com.au/",
-    "description": "DDLS workplace health and safety information.",
+    "description": "DDLS workplace health and safety information:",
     "links": [
       {
         "name": "Adelaide",
@@ -61,7 +61,7 @@
   "microsoft": {
     "name": "Microsoft Homepage",
     "url": "https://www.microsoft.com/",
-    "description": "Microsoft",
+    "description": "Links and resources related to Microsoft classes:",
     "links": [
       {
         "name": "Skillpipe",
@@ -98,7 +98,7 @@
   "cisco": {
     "name": "Cisco",
     "url": "http://www.cisco.com",
-    "description": "Cisco's website.",
+    "description": "Links and resources related to Cisco classes:",
     "links": [
       {
         "name": "DDLS Cisco Labs",
@@ -122,7 +122,7 @@
   "citrix": {
     "name": "Citrix Homepage",
     "url": "http://www.citrix.com/",
-    "description": "Citrix homepage.",
+    "description": "Links and resources related to Citrix classes:",
     "links": [
       {
         "name": "Citrix Toolwire Test",
@@ -144,7 +144,7 @@
   "vmware": {
     "name": "VMWare",
     "url": "http://www.vmware.com/",
-    "description": "The VMWare website.",
+    "description": "Links and resources related to VMWare classes:",
     "links": [
       {
         "name": "VMWare MyLearn",
@@ -161,6 +161,7 @@
   "itil": {
     "name": "ITIL",
     "url": "https://www.ddls.com.au/course-streams/itil/",
+    "description": "Links and resources related to Information Technology Infrastructure Library classes:",
     "links": [
       {
         "name": "ITIL Exam Instructions",

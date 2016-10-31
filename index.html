@@ -12,17 +12,13 @@
     <div id="app" class="row wrapper">
       <div class="large-2 columns">&nbsp</div>
       <div class="large-8 columns">
-        <header>
-          <div class="media-object">
-            <div class="media-object-section">
-              <div class="">
-                <img src="images/ddls-logo-300.png">
-              </div>
-            </div>
-            <div class="media-object-section">
-              <h2 class="header">Classroom</h1>
-              <h2 class="header">Services</h1>
-            </div>
+        <header class="clearfix">
+          <div class="float-right">
+            <img src="images/ddls-logo-300.png">
+          </div>
+          <div class="cs-title float-left">
+            <h2 class="header">Classroom</h2>
+            <h2 class="header">Services</h2>
           </div>
         </header>
 
@@ -44,6 +40,7 @@
 
           <div class="tabs-content" data-tabs-content="vendor-tabs">
             <div class="tabs-panel is-active" id="microsoft-tab">
+              <p>{{resources.microsoft.description}}</p>
               <ul>
                 <li v-for="link in resources.microsoft.links">
                   <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
@@ -51,6 +48,7 @@
               </ul>
             </div>
             <div class="tabs-panel" id="cisco-tab">
+              <p>{{resources.cisco.description}}</p>
               <ul>
                 <li v-for="link in resources.cisco.links">
                   <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
@@ -58,6 +56,7 @@
               </ul>
             </div>
             <div class="tabs-panel" id="citrix-tab">
+              <p>{{resources.citrix.description}}</p>
               <ul>
                 <li v-for="link in resources.citrix.links">
                   <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
@@ -66,12 +65,14 @@
             </div>
             <div class="tabs-panel" id="vmware-tab">
               <ul>
+                <p>{{resources.vmware.description}}</p>
                 <li v-for="link in resources.vmware.links">
                   <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
                 </li>
               </ul>
             </div>
             <div class="tabs-panel" id="itil-tab">
+              <p>{{resources.itil.description}}</p>
               <ul>
                 <li v-for="link in resources.itil.links">
                   <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
@@ -79,7 +80,7 @@
               </ul>
             </div>
             <div class="tabs-panel" id="whs-tab">
-              <p>Workplace Health and Safety Information</p>
+              <p>{{resources.whs.description}}</p>
               <ul>
                 <li v-for="linkwhs in resources.whs.links">
                   <a :href=linkwhs.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=linkwhs.description>{{linkwhs.name}}</p></a>
