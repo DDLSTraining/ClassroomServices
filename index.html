@@ -13,8 +13,17 @@
       <div class="large-2 columns">&nbsp</div>
       <div class="large-8 columns">
         <header>
-          <h1 class="header">DDLS Classroom Services</h1>
-          <p class="header">Resources just for you!.</p>
+          <div class="media-object">
+            <div class="media-object-section">
+              <div class="">
+                <img src="images/ddls-logo-300.png">
+              </div>
+            </div>
+            <div class="media-object-section">
+              <h2 class="header">Classroom</h1>
+              <h2 class="header">Services</h1>
+            </div>
+          </div>
         </header>
 
         <div class="cs-common-container expanded button-group">
@@ -70,6 +79,7 @@
               </ul>
             </div>
             <div class="tabs-panel" id="whs-tab">
+              <p>Workplace Health and Safety Information</p>
               <ul>
                 <li v-for="linkwhs in resources.whs.links">
                   <a :href=linkwhs.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=linkwhs.description>{{linkwhs.name}}</p></a>
