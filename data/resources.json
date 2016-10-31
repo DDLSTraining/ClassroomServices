@@ -7,49 +7,49 @@
       {
         "name": "Schedule",
         "url": "https://www.ddls.com.au/schedules/",
-        "description": "The course public schedule."
+        "description": "The DDLS course public schedule"
       },
       {
         "name": "Specials",
         "url": "https://www.ddls.com.au/offers/",
-        "description": "Course specials."
+        "description": "DDLS course specials and offers"
       },
       {
         "name": "Locations",
         "url": "https://www.ddls.com.au/contact-us/",
-        "description": "DDLS branch location and details."
+        "description": "DDLS branch location and details"
       }
     ]
   },
   "whs": {
     "name": "DDLS Workplace Health and Safety",
     "url": "https://www.ddls.com.au/",
-    "description": "DDLS workplace health and safety information:",
+    "description": "DDLS Workplace Health and Safety information:",
     "links": [
       {
         "name": "Adelaide",
         "url": "https://www.ddls.com.au/info/whs/ddls-adelaide/",
-        "description": "Workplace Health and Safety information for Adelaide."
+        "description": "Workplace Health and Safety information for Adelaide"
       },
       {
         "name": "Brisbane",
         "url": "https://www.ddls.com.au/info/whs/ddls-brisbane/",
-        "description": "Workplace Health and Safety information for Brisbane."
+        "description": "Workplace Health and Safety information for Brisbane"
       },
       {
         "name": "Canberra",
         "url": "https://www.ddls.com.au/info/whs/ddls-canberra/",
-        "description": "Workplace Health and Safety information for Canberra."
+        "description": "Workplace Health and Safety information for Canberra"
       },
       {
         "name": "Melbourne",
         "url": "https://www.ddls.com.au/info/whs/ddls-melbourne/",
-        "description": "Workplace Health and Safety information for Melbourne."
+        "description": "Workplace Health and Safety information for Melbourne"
       },
       {
         "name": "Perth",
         "url": "https://www.ddls.com.au/info/whs/ddls-perth/",
-        "description": "Workplace Health and Safety information for Perth."
+        "description": "Workplace Health and Safety information for Perth"
       },
       {
         "name": "Sydney",
@@ -66,7 +66,17 @@
       {
         "name": "Skillpipe",
         "url": "https://www.skillpipe.com/",
-        "description": "eReader online courseware and application"
+        "description": "eReader online courseware and client application"
+      },
+      {
+        "name": "Azure Portal",
+        "url": "https://portal.azure.com/",
+        "description": "Microsoft Azure management portal"
+      },
+      {
+        "name": "Office 365 Portal",
+        "url": "https://portal.office.com/",
+        "description": "Microsoft Office 365 management portal"
       },
       {
         "name": "MCP",
@@ -82,16 +92,6 @@
         "name": "TechNet",
         "url": "http://technet.microsoft.com/",
         "description": "Microsoft TechNet"
-      },
-      {
-        "name": "Office 365 Portal",
-        "url": "https://portal.office.com/",
-        "description": "Microsoft Office 365 management portal"
-      },
-      {
-        "name": "Azure Portal",
-        "url": "https://portal.azure.com/",
-        "description": "Microsoft Azure management portal"
       }
     ]
   },
@@ -106,16 +106,19 @@
         "description": "DDLS Cisco Labs Website."
       },
       {
-        "name": "Cisco eReader Online Courseware",
+        "name": "Cisco Learning Network Space (eReader)",
         "url": "https://learningspace.cisco.com/",
-        "description": "Cisco online courseware application."
+        "description": "Cisco digital learning platform built to offer instant user access to training information, course materials, and exam preparation resources"
+      },
+      {
+        "name": "Cisco Learning Labs Portal",
+        "url": "https://cll1.cisco.com/users/pblogin",
+        "description": "Cisco Learning Labs Portal login page"
       },
       {
         "name": "Cisco Certifications",
         "url": "http://www.cisco.com/go/certifications",
-        "description": "Cisco certification information.",
-        "FavoritesBar": "Y",
-        "FavoritesBarGroup": "Cisco"
+        "description": "Cisco certification paths and information"
       }
     ]
   },
@@ -127,17 +130,22 @@
       {
         "name": "Citrix Toolwire Test",
         "url": "http://www.toolwire.com/test",
-        "description": "Citrix connection test."
+        "description": "The Connection Test and Diagnostics verifies your ability to connect to our systems and determines which Client and Proxy Discovery combination to use on the day of your training event"
       },
       {
         "name": "Citrix Toolwire Connect",
         "url": "http://www.toolwire.com/pro",
-        "description": "Citrix connection site."
+        "description": "Citrix Toolwire login page"
       },
       {
         "name": "Citrix Training",
         "url": "http://training.citrix.com/",
-        "description": "Citrix education and training site."
+        "description": "Citrix education and training site"
+      },
+      {
+        "name": "Citrix Receiver",
+        "url": "http://receiver.citrix.com/",
+        "description": "Citrix Receiver client software download"
       }
     ]
   },
@@ -149,12 +157,12 @@
       {
         "name": "VMWare MyLearn",
         "url": "http://mylearn.vmware.com/",
-        "description": "The VMWare learning portal administration site."
+        "description": "The VMWare learning portal administration site"
       },
       {
         "name": "VMWare Bookshelf",
         "url": "https://online.vitalsource.com/signin",
-        "description": "The VMWare online courseware site."
+        "description": "The VMWare online courseware site"
       }
     ]
   },
@@ -166,17 +174,17 @@
       {
         "name": "ITIL Exam Instructions",
         "url": "ftp://gears.ddls.com.au/Resources/ITILExamInstructions.pdf",
-        "description": "ITIL Exam Instructions Document."
-      },
-      {
-        "name": "ITIL Exam",
-        "url": "https://webates.peoplecert.org",
-        "description": "ITIL Exam."
+        "description": "ITIL Exam instructions document"
       },
       {
         "name": "ITIL Exam Registration",
         "url": "https://candidate.peoplecert.org/",
-        "description": "Register for the ITIL course exam."
+        "description": "Register for the ITIL course exam"
+      },
+      {
+        "name": "ITIL Exam",
+        "url": "https://webates.peoplecert.org",
+        "description": "Are you ready to sit the ITIL Exam?"
       },
       {
         "name": "DDLS ITIL Portal",
