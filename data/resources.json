@@ -18,6 +18,11 @@
         "name": "Locations",
         "url": "https://www.ddls.com.au/contact-us/",
         "description": "DDLS branch location and details"
+      },
+      {
+        "name": "MTM",
+        "url": "https://www.metricsthatmatter.com/dim319",
+        "description": "Metrics That Matter course evaluation site"
       }
     ]
   },
