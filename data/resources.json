@@ -5,54 +5,54 @@
     "description": "The main DDLS website.",
     "links": [
       {
-        "name": "DDLS Course Schedule",
+        "name": "Schedule",
         "url": "https://www.ddls.com.au/schedules/",
         "description": "The course public schedule."
       },
       {
-        "name": "DDLS Offers and Specials",
+        "name": "Specials",
         "url": "https://www.ddls.com.au/offers/",
         "description": "Course specials."
       },
       {
-        "name": "DDLS Locations",
+        "name": "Locations",
         "url": "https://www.ddls.com.au/contact-us/",
         "description": "DDLS branch location and details."
       }
     ]
   },
   "whs": {
-    "name": "DDLS WHS",
+    "name": "DDLS Workplace Health and Safety",
     "url": "https://www.ddls.com.au/",
     "description": "DDLS workplace health and safety information.",
     "links": [
       {
-        "name": "DDLS WHS Adelaide",
+        "name": "Adelaide",
         "url": "https://www.ddls.com.au/info/whs/ddls-adelaide/",
         "description": "Workplace Health and Safety information for Adelaide."
       },
       {
-        "name": "DDLS WHS Brisbane",
+        "name": "Brisbane",
         "url": "https://www.ddls.com.au/info/whs/ddls-brisbane/",
         "description": "Workplace Health and Safety information for Brisbane."
       },
       {
-        "name": "DDLS WHS Canberra",
+        "name": "Canberra",
         "url": "https://www.ddls.com.au/info/whs/ddls-canberra/",
         "description": "Workplace Health and Safety information for Canberra."
       },
       {
-        "name": "DDLS WHS Melbourne",
+        "name": "Melbourne",
         "url": "https://www.ddls.com.au/info/whs/ddls-melbourne/",
         "description": "Workplace Health and Safety information for Melbourne."
       },
       {
-        "name": "DDLS WHS Perth",
+        "name": "Perth",
         "url": "https://www.ddls.com.au/info/whs/ddls-perth/",
         "description": "Workplace Health and Safety information for Perth."
       },
       {
-        "name": "DDLS WHS Sydney",
+        "name": "Sydney",
         "url": "https://www.ddls.com.au/info/whs/ddls-sydney/",
         "description": "Workplace Health and Safety information for Sydney."
       }
@@ -64,34 +64,34 @@
     "description": "Microsoft",
     "links": [
       {
-        "name": "Microsoft MCP Site",
-        "url": "https://mcp.microsoft.com/",
-        "description": "Microsoft Certified Professional site."
-      },
-      {
-        "name": "Microsoft MSDN Site",
-        "url": "http://msdn.microsoft.com/",
-        "description": "Microsoft developer site."
-      },
-      {
-        "name": "Microsoft TechNet Site",
-        "url": "http://technet.microsoft.com/",
-        "description": "Microsoft TechNet site."
-      },
-      {
-        "name": "Skillpipe Microsoft eReader Online Courseware",
+        "name": "Skillpipe",
         "url": "https://www.skillpipe.com/",
-        "description": "Microsoft eReader application."
+        "description": "eReader online courseware and application"
+      },
+      {
+        "name": "MCP",
+        "url": "https://mcp.microsoft.com/",
+        "description": "Microsoft Certified Professional"
+      },
+      {
+        "name": "MSDN",
+        "url": "http://msdn.microsoft.com/",
+        "description": "Microsoft Developer Network"
+      },
+      {
+        "name": "TechNet",
+        "url": "http://technet.microsoft.com/",
+        "description": "Microsoft TechNet"
       },
       {
         "name": "Office 365 Portal",
         "url": "https://portal.office.com/",
-        "description": "Microsoft Office 365 management portal."
+        "description": "Microsoft Office 365 management portal"
       },
       {
         "name": "Azure Portal",
         "url": "https://portal.azure.com/",
-        "description": "Microsoft Azure management portal."
+        "description": "Microsoft Azure management portal"
       }
     ]
   },

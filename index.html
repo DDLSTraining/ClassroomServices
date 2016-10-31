@@ -6,66 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DDLS Classroom Services</title>
     <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="row wrapper" id="app">
-      <div class="large-2 columns"></div>
+    <div id="app" class="row wrapper">
+      <div class="large-2 columns">&nbsp</div>
       <div class="large-8 columns">
-      <header>
-        <h1 class="header">DDLS Classroom Services</h1>
-        <p class="header">Resources just for you!.</p>
-      </header>
+        <header>
+          <h1 class="header">DDLS Classroom Services</h1>
+          <p class="header">Resources just for you!.</p>
+        </header>
 
+        <div class="cs-common-container expanded button-group">
+          <a class="button has-tip" data-tooltip data-disable-hover='false':title=link.description :href=link.url v-for="link of resources.common.links">
+            <span>{{link.name}}</span>
+          </a>
+        </div>
 
-      <div class="cs-tab-container">
-        <ul class="tabs" id="vendor-tabs" data-tabs>
-          <li class="tabs-title is-active"><a href="#microsoft-tab">Microsoft</a></li>
-          <li class="tabs-title"><a href="#cisco-tab">Cisco</a></li>
-          <li class="tabs-title"><a href="#citrix-tab">Citrix</a></li>
-          <li class="tabs-title"><a href="#vmware-tab">VMWare</a></li>
-          <li class="tabs-title"><a href="#itil-tab">ITIL</a></li>
-        </ul>
+        <div class="cs-tab-container">
+          <ul class="tabs" id="vendor-tabs" data-tabs>
+            <li class="tabs-title is-active"><a href="#microsoft-tab">Microsoft</a></li>
+            <li class="tabs-title"><a href="#cisco-tab">Cisco</a></li>
+            <li class="tabs-title"><a href="#citrix-tab">Citrix</a></li>
+            <li class="tabs-title"><a href="#vmware-tab">VMWare</a></li>
+            <li class="tabs-title"><a href="#itil-tab">ITIL</a></li>
+            <li class="tabs-title"><a href="#whs-tab">WHS</a></li>
+          </ul>
 
-        <div class="tabs-content" data-tabs-content="vendor-tabs">
-          <div class="tabs-panel is-active" id="microsoft-tab">
-            <ul>
-              <li v-for="link in resources.microsoft.links">
-                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
-              </li>
-            </ul>
-          </div>
-          <div class="tabs-panel" id="cisco-tab">
-            <ul>
-              <li v-for="link in resources.cisco.links">
-                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
-              </li>
-            </ul>
-          </div>
-          <div class="tabs-panel" id="citrix-tab">
-            <ul>
-              <li v-for="link in resources.citrix.links">
-                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
-              </li>
-            </ul>
-          </div>
-          <div class="tabs-panel" id="vmware-tab">
-            <ul>
-              <li v-for="link in resources.vmware.links">
-                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
-              </li>
-            </ul>
-          </div>
-          <div class="tabs-panel" id="itil-tab">
-            <ul>
-              <li v-for="link in resources.itil.links">
-                <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
-              </li>
-            </ul>
+          <div class="tabs-content" data-tabs-content="vendor-tabs">
+            <div class="tabs-panel is-active" id="microsoft-tab">
+              <ul>
+                <li v-for="link in resources.microsoft.links">
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-panel" id="cisco-tab">
+              <ul>
+                <li v-for="link in resources.cisco.links">
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-panel" id="citrix-tab">
+              <ul>
+                <li v-for="link in resources.citrix.links">
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-panel" id="vmware-tab">
+              <ul>
+                <li v-for="link in resources.vmware.links">
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-panel" id="itil-tab">
+              <ul>
+                <li v-for="link in resources.itil.links">
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-panel" id="whs-tab">
+              <ul>
+                <li v-for="linkwhs in resources.whs.links">
+                  <a :href=linkwhs.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=linkwhs.description>{{linkwhs.name}}</p></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+
+
       </div>
-</div>
-      <div class="large-2 columns"></div>
+      <div class="large-2 columns">&nbsp</div>
     </div>
 
     <script src="js/jquery.min.js"></script>
@@ -76,7 +92,6 @@
     <script src="js/cs-app.js"></script>
     <script>
       $(document).foundation();
-    </script>
-
+  </script>
   </body>
 </html>
