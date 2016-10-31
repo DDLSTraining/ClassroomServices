@@ -14,7 +14,7 @@
       <div class="large-8 columns">
         <header class="clearfix">
           <div class="float-right">
-            <img src="images/ddls-logo-300.png">
+            <img data-interchange="[images/ddls-logo-144.png, small], [images/ddls-logo-300.png, medium], [images/ddls-logo-300.png, large]">
           </div>
           <div class="cs-title float-left">
             <h2 class="header">Classroom</h2>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="cs-tab-container">
-          <ul class="tabs" id="vendor-tabs" data-tabs>
+          <ul class="tabs cs-tabs" id="vendor-tabs" data-tabs>
             <li class="tabs-title is-active"><a href="#microsoft-tab">Microsoft</a></li>
             <li class="tabs-title"><a href="#cisco-tab">Cisco</a></li>
             <li class="tabs-title"><a href="#citrix-tab">Citrix</a></li>
@@ -38,7 +38,7 @@
             <li class="tabs-title"><a href="#whs-tab">WHS</a></li>
           </ul>
 
-          <div class="tabs-content" data-tabs-content="vendor-tabs">
+          <div class="cs-tabs-content" data-tabs-content="vendor-tabs">
             <div class="tabs-panel is-active" id="microsoft-tab">
               <p>{{resources.microsoft.description}}</p>
               <ul>
@@ -64,8 +64,8 @@
               </ul>
             </div>
             <div class="tabs-panel" id="vmware-tab">
+              <p>{{resources.vmware.description}}</p>
               <ul>
-                <p>{{resources.vmware.description}}</p>
                 <li v-for="link in resources.vmware.links">
                   <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
                 </li>

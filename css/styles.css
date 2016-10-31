@@ -1,5 +1,18 @@
 .cs-title {
+  padding-top: 1rem;
+}
+
+.cs-title h2 {
   color: #6d6e70;
   margin: 0;
   padding: 0;
+}
+
+.cs-tabs-content p {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.cs-tabs a {
+  font-size: 1rem;
 }
