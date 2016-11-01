@@ -26,7 +26,7 @@
 
         <div class="cs-common-container expanded button-group">
           <a class="button has-tip" data-tooltip data-disable-hover='false':title=link.description :href=link.url v-for="link of resources.common.links">
-            <span>{{link.name}}</span>
+            <span v-cloak>{{link.name}}</span>
           </a>
         </div>
 
@@ -42,50 +42,50 @@
 
           <div class="cs-tabs-content" data-tabs-content="vendor-tabs">
             <div class="tabs-panel is-active" id="microsoft-tab">
-              <p>{{resources.microsoft.description}}</p>
+              <p v-cloak>{{resources.microsoft.description}}</p>
               <ul>
                 <li v-for="link in resources.microsoft.links">
-                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description v-cloak v-cloak>{{link.name}}</p></a>
                 </li>
               </ul>
             </div>
             <div class="tabs-panel" id="cisco-tab">
-              <p>{{resources.cisco.description}}</p>
+              <p v-cloak>{{resources.cisco.description}}</p>
               <ul>
                 <li v-for="link in resources.cisco.links">
-                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description v-cloak>{{link.name}}</p></a>
                 </li>
               </ul>
             </div>
             <div class="tabs-panel" id="citrix-tab">
-              <p>{{resources.citrix.description}}</p>
+              <p v-cloak>{{resources.citrix.description}}</p>
               <ul>
                 <li v-for="link in resources.citrix.links">
-                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description v-cloak>{{link.name}}</p></a>
                 </li>
               </ul>
             </div>
             <div class="tabs-panel" id="vmware-tab">
-              <p>{{resources.vmware.description}}</p>
+              <p v-cloak>{{resources.vmware.description}}</p>
               <ul>
                 <li v-for="link in resources.vmware.links">
-                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description v-cloak>{{link.name}}</p></a>
                 </li>
               </ul>
             </div>
             <div class="tabs-panel" id="itil-tab">
-              <p>{{resources.itil.description}}</p>
+              <p v-cloak>{{resources.itil.description}}</p>
               <ul>
                 <li v-for="link in resources.itil.links">
-                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description>{{link.name}}</p></a>
+                  <a :href=link.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=link.description v-cloak>{{link.name}}</p></a>
                 </li>
               </ul>
             </div>
             <div class="tabs-panel" id="whs-tab">
-              <p>{{resources.whs.description}}</p>
+              <p v-cloak>{{resources.whs.description}}</p>
               <ul>
                 <li v-for="linkwhs in resources.whs.links">
-                  <a :href=linkwhs.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=linkwhs.description>{{linkwhs.name}}</p></a>
+                  <a :href=linkwhs.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=linkwhs.description v-cloak>{{linkwhs.name}}</p></a>
                 </li>
               </ul>
             </div>
