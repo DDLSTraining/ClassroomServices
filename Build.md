@@ -6,7 +6,7 @@ This page contains details on the build process for the DDLS Base classroom imag
  
 ## Phase One - Windows Install
 
-1.  Boot to the Windows Server 2012 Evaluation ISO in a virtual machine on Hyper-V.
+1.  Boot to the Windows Server 2016 Evaluation ISO in a virtual machine on Hyper-V.
 2.  Go through the wizard and click Advanced to select the disk to install onto.
 3.  Press SHIFT and F10 to open a command prompt.
 4.  Use DiskPart to create two 60GB partitions.
@@ -22,12 +22,13 @@ This page contains details on the build process for the DDLS Base classroom imag
 ## Phase Two - Update and Image
 
 1.  Open a PowerShell prompt and type this command:
-   *   START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/DDLSTraining/ClassroomSupport/master/Boxstarter.ps1 
-2.  Clone the Tools, Drivers, and WinPE repositories. You will need to authenticate prior to running the git commands. 
+   *   START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Boxstarter.ps1 
+2.  Clone the Tools, Drivers, and WinPE repositories. You will need to authenticate. 
    *   `git clone https://ddlstraining.visualstudio.com/_git/Tools`
    *   `git clone https://ddlstraining.visualstudio.com/_git/Drivers`
    *   `git clone https://ddlstraining.visualstudio.com/_git/WinPE`
 3.  From a PowerShell prompt, run `C:\Tools\Set-EnvironmentVariables.ps1 `
+4.  Run the software install script: `C:\Tools\Install-ChocoPackages.ps1`
 4.  Install Office 2016 VL manually. 
 5.  Skipping: Install Office Visio 2013 VL manually. 
 6.  Skipping: nstall Office Project VL manually. 
