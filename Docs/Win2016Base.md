@@ -1,5 +1,7 @@
 # Windows 2016 Base Image
 
+[Change Log](https://github.com/DDLSTraining/ClassroomServices/blob/master/Docs/Win2016BaseChangeLog.md)
+
 ## Hardware Support
 
 #### Supported:
