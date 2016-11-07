@@ -63,6 +63,18 @@
       }
     ]
   },
+  "drivers": {
+    "name": "Extra Hardware Drivers",
+    "url": "https://www.catalog.update.microsoft.com/",
+    "description": "Links and resources related to hardware drivers:",
+    "links": [
+      {
+        "name": "Dell Percision T5400 Video Driver",
+        "url": "http://download.windowsupdate.com/d/msdownload/update/driver/drvs/2016/03/200014607_69c24b2b1acd811068d57d2630603959cb7b4290.cab",
+        "description": "Nvidia Quadro FX 570 driver required for dual monitor support"
+      }
+    ]
+  },
   "microsoft": {
     "name": "Microsoft Homepage",
     "url": "https://www.microsoft.com/",

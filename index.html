@@ -38,6 +38,7 @@
             <li class="tabs-title"><a href="#vmware-tab">VMWare</a></li>
             <li class="tabs-title"><a href="#itil-tab">ITIL</a></li>
             <li class="tabs-title"><a href="#whs-tab">WHS</a></li>
+            <li class="tabs-title"><a href="#drivers-tab">Drivers</a></li>
           </ul>
 
           <div class="cs-tabs-content" data-tabs-content="vendor-tabs">
@@ -86,6 +87,14 @@
               <ul>
                 <li v-for="linkwhs in resources.whs.links">
                   <a :href=linkwhs.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=linkwhs.description v-cloak>{{linkwhs.name}}</p></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tabs-panel" id="drivers-tab">
+              <p v-cloak>{{resources.drivers.description}}</p>
+              <ul>
+                <li v-for="linkdrivers in resources.drivers.links">
+                  <a :href=linkdrivers.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=linkdrivers.description v-cloak>{{linkdrivers.name}}</p></a>
                 </li>
               </ul>
             </div>
