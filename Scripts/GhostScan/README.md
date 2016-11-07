@@ -1,5 +1,9 @@
 # GhostScan Ghost Image Scanning Scripts
 
+## Description
+
+The new Windows 2016 base image uses a newer version of Hyper-V which will not import older Hyper-V course images. This script will place a text file in the location of each image indicating if the course image supports running on the Windows 2016 base operating system.
+
 ## Instructions
 
 1.   Create a `C:\Scripts` directory.
