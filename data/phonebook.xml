@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LocalPhoneBook>
+  <Contact localId="localContactId-10" type="Person">
+    <DisplayName>Sydney Room 1</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93137@didata.com.au</Uri>
+        <Protocol/>
+        <CallRate>768</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-1" type="Person">
+    <DisplayName>Adelaide Room 4</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93352@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-17" type="Person">
+    <DisplayName>Brisbane Room 3</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="" localId="1">
+        <Uri>93355@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-2" type="Person">
+    <DisplayName>Brisbane Room 8</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93355@didata.com.au</Uri>
+        <Protocol/>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-18" type="Person">
+    <DisplayName>Brisbane Room 7</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93371@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-14" type="Person">
+    <DisplayName>Adelaide Room 2</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93353@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-3" type="Person">
+    <DisplayName>Canberra Room 4</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93354@didata.com.au</Uri>
+        <Protocol/>
+        <CallRate>768</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-11" type="Person">
+    <DisplayName>Canberra Room 2</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93357@didata.com.au</Uri>
+        <Protocol/>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-19" type="Person">
+    <DisplayName>Canberra Room 6</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93372@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-20" type="Person">
+    <DisplayName>Canberra Room 7</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93373@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-21" type="Person">
+    <DisplayName>Melbourne Room 5</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93359@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-22" type="Person">
+    <DisplayName>Melbourne Room 6</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93148@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-4" type="Person">
+    <DisplayName>Melbourne Room 10</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93356@didata.com.au</Uri>
+        <Protocol/>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-5" type="Person">
+    <DisplayName>Melbourne Room 11</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93350@didata.com.au</Uri>
+        <Protocol/>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-12" type="Person">
+    <DisplayName>Perth Meeting Room</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93169@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>0</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-13" type="Person">
+    <DisplayName>Perth Room 5</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93358@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-6" type="Person">
+    <DisplayName>Sydney Meeting Room</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93160@didata.com.au</Uri>
+        <Protocol/>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-9" type="Person">
+    <DisplayName>Sydney Room 4</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93364@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-15" type="Person">
+    <DisplayName>Sydney Room 5</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93367@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-23" type="Person">
+    <DisplayName>Sydney Room 6</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93366@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-24" type="Person">
+    <DisplayName>Sydney Room 8</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93368@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-25" type="Person">
+    <DisplayName>Sydney Room 9</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93369@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-26" type="Person">
+    <DisplayName>Sydney Room 10</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="Video" localId="1">
+        <Uri>93360@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-27" type="Person">
+    <DisplayName>VC Bridge 1</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="" localId="1">
+        <Uri>930041@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>0</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-28" type="Person">
+    <DisplayName>VC Bridge 2</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="" localId="1">
+        <Uri>930042@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>0</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-29" type="Person">
+    <DisplayName>VC Bridge 3</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="" localId="1">
+        <Uri>930043@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>0</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+</LocalPhoneBook>
