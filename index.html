@@ -25,7 +25,7 @@
         </header>
 
         <div v-if="loaded" class="cs-common-container expanded button-group">
-          <a class="button has-tip" data-tooltip data-disable-hover='false':title=link.description :href=link.url v-for="link of resources.common.links">
+          <a :id="link.name" class="button has-tip" data-tooltip data-disable-hover='false':title=link.description :href=link.url v-for="link of resources.common.links">
             <span v-cloak>{{link.name}}</span>
           </a>
         </div>
