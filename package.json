@@ -20,7 +20,8 @@
   "dependencies": {
     "foundation-sites": "^6.2.4",
     "vue": "^2.0.3",
-    "vue-resource": "^1.0.3"
+    "vue-resource": "^1.0.3",
+    "x2js": "^3.0.1"
   },
   "devDependencies": {
     "here": "0.0.2"

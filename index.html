@@ -24,13 +24,13 @@
           </div>
         </header>
 
-        <div class="cs-common-container expanded button-group">
+        <div v-if="loaded" class="cs-common-container expanded button-group">
           <a class="button has-tip" data-tooltip data-disable-hover='false':title=link.description :href=link.url v-for="link of resources.common.links">
             <span v-cloak>{{link.name}}</span>
           </a>
         </div>
 
-        <div class="cs-tab-container">
+        <div v-if="loaded" class="cs-tab-container">
           <ul class="tabs cs-tabs" id="vendor-tabs" data-tabs>
             <li class="tabs-title is-active"><a href="#microsoft-tab">Microsoft</a></li>
             <li class="tabs-title"><a href="#cisco-tab">Cisco</a></li>
@@ -39,6 +39,7 @@
             <li class="tabs-title"><a href="#itil-tab">ITIL</a></li>
             <li class="tabs-title"><a href="#whs-tab">WHS</a></li>
             <li class="tabs-title"><a href="#drivers-tab">Drivers</a></li>
+            <li class="tabs-title"><a href="#tp-tab">TP</a></li>
           </ul>
 
           <div class="cs-tabs-content" data-tabs-content="vendor-tabs">
@@ -98,6 +99,23 @@
                 </li>
               </ul>
             </div>
+            <div class="tabs-panel" id="tp-tab">
+              <p>Telepresence Phonebook</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Site</th>
+                    <th>Uri</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="contact in phonebook">
+                    <td>{{contact.DisplayName}}</td>
+                    <td>{{contact.ContactMethodGroup.ContactMethod.Uri}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
 
@@ -111,6 +129,7 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/vue.min.js"></script>
     <script src="js/vue-resource.min.js"></script>
+    <script src="js/x2js.js"></script>
     <script src="js/cs-app.js"></script>
     <script>
       $(document).foundation();
