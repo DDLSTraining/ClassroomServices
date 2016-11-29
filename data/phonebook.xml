@@ -22,17 +22,6 @@
       </ContactMethod>
     </ContactMethodGroup>
   </Contact>
-  <Contact localId="localContactId-17" type="Person">
-    <DisplayName>Brisbane Room 3</DisplayName>
-    <ContactMethodGroup type="only_one_group">
-      <ContactMethod type="" localId="1">
-        <Uri>93355@didata.com.au</Uri>
-        <Protocol>SIP</Protocol>
-        <CallRate>1152</CallRate>
-        <CallType>Video</CallType>
-      </ContactMethod>
-    </ContactMethodGroup>
-  </Contact>
   <Contact localId="localContactId-2" type="Person">
     <DisplayName>Brisbane Room 8</DisplayName>
     <ContactMethodGroup type="only_one_group">
@@ -282,6 +271,17 @@
         <Uri>930043@didata.com.au</Uri>
         <Protocol>SIP</Protocol>
         <CallRate>0</CallRate>
+        <CallType>Video</CallType>
+      </ContactMethod>
+    </ContactMethodGroup>
+  </Contact>
+  <Contact localId="localContactId-17" type="Person">
+    <DisplayName>Brisbane Room 3</DisplayName>
+    <ContactMethodGroup type="only_one_group">
+      <ContactMethod type="" localId="1">
+        <Uri>93354@didata.com.au</Uri>
+        <Protocol>SIP</Protocol>
+        <CallRate>1152</CallRate>
         <CallType>Video</CallType>
       </ContactMethod>
     </ContactMethodGroup>
