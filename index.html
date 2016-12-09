@@ -100,6 +100,12 @@
               </ul>
             </div>
             <div class="tabs-panel" id="tp-tab">
+              <p>Zoom Hosts</p>
+              <ul>
+                <li v-for="host in resources.zoom.links">
+                  <a :href=host.url><p data-tooltip data-disable-hover='false' class='has-tip' :title=host.description v-cloak>{{host.name}}</p></a>
+                </li>
+              </ul>
               <p>Telepresence Phonebook</p>
               <table class="hover">
                 <thead>
@@ -118,8 +124,6 @@
             </div>
           </div>
         </div>
-
-
       </div>
       <div class="large-2 columns">&nbsp</div>
     </div>

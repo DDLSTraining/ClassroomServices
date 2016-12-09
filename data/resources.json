@@ -209,5 +209,17 @@
         "description": "ITIL Study Portal"
       }
     ]
+  },
+  "zoom": {
+    "name": "Zoom",
+    "url": "https://zoom.us",
+    "description": "Video Conferencing and Web Conferencing Service",
+    "links": [
+      {
+        "name": "Grant Carthew",
+        "url": "https://zoom.us/j/9063788101",
+        "description": "Join zoom meetings hosted by Grant Carthew"
+      }
+    ]
   }
 }
