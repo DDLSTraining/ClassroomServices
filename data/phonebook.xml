@@ -1,16 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LocalPhoneBook>
-  <Contact localId="localContactId-10" type="Person">
-    <DisplayName>Sydney Room 1</DisplayName>
-    <ContactMethodGroup type="only_one_group">
-      <ContactMethod type="Video" localId="1">
-        <Uri>93137@didata.com.au</Uri>
-        <Protocol/>
-        <CallRate>768</CallRate>
-        <CallType>Video</CallType>
-      </ContactMethod>
-    </ContactMethodGroup>
-  </Contact>
   <Contact localId="localContactId-1" type="Person">
     <DisplayName>Adelaide Room 4</DisplayName>
     <ContactMethodGroup type="only_one_group">
@@ -59,7 +48,7 @@
     <DisplayName>Canberra Room 4</DisplayName>
     <ContactMethodGroup type="only_one_group">
       <ContactMethod type="Video" localId="1">
-        <Uri>93354@didata.com.au</Uri>
+        <Uri>93357@didata.com.au</Uri>
         <Protocol/>
         <CallRate>768</CallRate>
         <CallType>Video</CallType>
@@ -70,7 +59,7 @@
     <DisplayName>Canberra Room 2</DisplayName>
     <ContactMethodGroup type="only_one_group">
       <ContactMethod type="Video" localId="1">
-        <Uri>93357@didata.com.au</Uri>
+        <Uri>93351@didata.com.au</Uri>
         <Protocol/>
         <CallRate>1152</CallRate>
         <CallType>Video</CallType>
@@ -78,7 +67,7 @@
     </ContactMethodGroup>
   </Contact>
   <Contact localId="localContactId-19" type="Person">
-    <DisplayName>Canberra Room 6</DisplayName>
+    <DisplayName>Canberra Room 72</DisplayName>
     <ContactMethodGroup type="only_one_group">
       <ContactMethod type="Video" localId="1">
         <Uri>93372@didata.com.au</Uri>
@@ -89,7 +78,7 @@
     </ContactMethodGroup>
   </Contact>
   <Contact localId="localContactId-20" type="Person">
-    <DisplayName>Canberra Room 7</DisplayName>
+    <DisplayName>Canberra Room 73</DisplayName>
     <ContactMethodGroup type="only_one_group">
       <ContactMethod type="Video" localId="1">
         <Uri>93373@didata.com.au</Uri>
@@ -276,7 +265,7 @@
     </ContactMethodGroup>
   </Contact>
   <Contact localId="localContactId-17" type="Person">
-    <DisplayName>Brisbane Room 3</DisplayName>
+    <DisplayName>Brisbane Room 2</DisplayName>
     <ContactMethodGroup type="only_one_group">
       <ContactMethod type="" localId="1">
         <Uri>93354@didata.com.au</Uri>
