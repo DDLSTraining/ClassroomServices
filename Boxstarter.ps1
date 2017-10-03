@@ -1,13 +1,13 @@
 Update-ExecutionPolicy -Policy Unrestricted
 
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -EnableExpandToOpenFolder -EnableShowFullPathInTitleBar -EnableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess
-Set-StartScreenOptions -EnableBootToDesktop
 Set-TaskbarOptions -Combine Never
-Enable-RemoteDesktop
+
 Disable-InternetExplorerESC
+Disable-GameBarTips
 Disable-UAC
 Disable-BingSearch
-Disable-GameBarTips
+Enable-RemoteDesktop
 
 cinst chocolatey -y
 cinst git.install -y
