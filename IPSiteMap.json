@@ -30,8 +30,8 @@
     "Wallpaper": "https://raw.githubusercontent.com/DDLSTraining/ClassroomServices/master/Wallpaper/Brisbane.jpg",
     "Rooms": [
       {
-        "IP": "148.182.92.0",
-        "Mask": "255.255.255.0",
+        "IP": "10.71.51.0",
+        "Mask": "255.255.255.128",
         "Room": "1"
       },
       {
